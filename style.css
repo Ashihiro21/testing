@@ -1,0 +1,269 @@
+body{
+    background: url('bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body{
+    font-family: Trebuchet MS;
+
+}
+
+
+
+.company-name {
+    color: white;
+}
+
+.highlighted-text {
+    color: red;
+    font-weight: bold;
+}
+.nav-link{
+    color: white;
+}
+
+.resume{
+    border-radius: 5px;
+}
+
+.text-left:hover{
+    color: white;
+    background-color: rgb(179, 6, 6);
+}
+
+.text-left{
+    border-radius: 5px;
+    text-align: right;
+}
+
+.navbar-toggler{
+    background-color: gray;
+}
+
+.navbar-nav .nav-item1 {
+        margin: 0 30px; 
+}
+
+.text-right{
+   background-color: red;
+   width: 6rem;
+   padding: 5rem;
+}
+
+.rounded-circle {
+        border-radius: 50%;
+}
+
+.hero{
+    margin-top: 150px;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.d1{
+    font-size: 2rem;
+}
+
+.web1{
+    font-size: 2rem;
+}
+
+
+
+.jumbotron1 {
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 50px;
+    margin-top: 20rem;
+    background-color: #404040;
+    /* height: 100vh */
+}
+
+/* .jumbotron img {
+    max-width: 100%;
+    height: auto;
+} */
+
+
+.img-fluid{
+    width: 20rem;
+    border: 1px solid white;
+    box-shadow: 15px 15px 15px 15px black;
+}   
+/* 
+.description {
+    flex: 1;
+    margin-left: 10px;
+} */
+
+
+.description1 {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ .developer {
+    color: white; /* Blue color */
+}
+
+.designer {
+    color: red; /* Red color */
+}
+
+.About-Me{
+    color: white;
+}
+
+.btn2{
+    background-color: red;
+    border-radius: 25px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    color: #a6a6a6;
+}
+
+.box{
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box-title{
+    color: white;
+    font-size: 25px;
+}
+
+.box-text{
+    color:  #a6a6a6;
+    font-size: 15px;
+}
+
+ .button2 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+}
+ .btn3{
+    background-color: red;
+    border-radius: 25px;
+    width: 120px;
+    display: flex;
+
+}
+
+.btn2:hover{
+    text-decoration: none;
+    background-color: rgb(179, 6, 6);
+    color: white;
+}
+
+.btn3:hover{
+    text-decoration: none;
+    background-color: rgb(179, 6, 6);
+    color: white;
+}
+
+.About-Me1{
+    text-align: center;
+    color:white;
+    margin-top: 15px;
+}
+
+.jumbotron2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 75px;
+    background-color: #404040;
+}
+
+
+
+
+
+.jumbotron3 {
+    padding: 50px;
+    margin-top: 75px;
+    background-color:none;
+
+}
+
+.social-icon img{
+    height: 50px;
+    width: 50px;
+}
+
+.social-icon {
+margin: 0 10px;
+}
+
+.About-Me1, .box-text{
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    color: red;
+    text-align: center;
+}
+
+  /* Set height of the left column to 100% */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+        img {
+            margin-left: 0;
+            max-width: 100%;
+        }
+
+        .description {
+            margin-top: 10px;
+        }
+
+        .desc {
+            margin-right: 0;
+        }
+
+        .img-fluid{
+            width: 50rem;
+        }
+
+        .button {
+            /* Adjust styles for smaller screens */
+            width: 100%; /* Example: Make the button full width on smaller screens */
+        }
+
+
+    }
+
